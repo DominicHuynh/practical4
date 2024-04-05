@@ -14,7 +14,7 @@ public:
 Vehicle(); //default constructor
 Vehicle(int ID);
 int getID();
-int getParkingDuration() ;
+virtual int getParkingDuration() ;
 };
 
 
